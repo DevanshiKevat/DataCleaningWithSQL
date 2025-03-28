@@ -4,7 +4,7 @@ select * from layoffs;
 
 -- 1. Remove Duplicates
 -- 2. Standardize the Data
--- 3. Null calue or blank values
+-- 3. Null value or blank values
 -- 4. remove any row or column if necessary
 
 create table layoffs_staging like layoffs; -- it will just make a table schema like layoffs
